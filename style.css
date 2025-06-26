@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "norseBold";
+  src: url(./Norse-Bold.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+}
+
+.imageSection {
+  position: relative;
+  flex: 0.4;
+}
+
+.imageSection > img {
+  width: 100%;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+input:focus {
+    box-shadow: 0 5PX 5PX 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid rgb(87, 141, 182);
+    outline: none;
+}
+
+label {
+    display: block;
+}
+
+.odinNameAndLogo {
+  width: 100%;
+  top: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background: black;
+  opacity: 0.5;
+  color: white;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.odinNameAndLogo > img {
+  width: 100px;
+}
+
+.odinNameAndLogo > div {
+  font-family: "norseBold", sans-serif;
+  font-size: 8em;
+}
+
+.loginSection {
+  display: flex;
+  flex: 0.6;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  background-color: rgb(228, 228, 228);
+}
+
+.fields {
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.19);
+    /* padding-top: 30px; */
+    /* padding-bottom: 30px; */
+
+}
+
+fieldset {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+fieldset > div {
+    margin-bottom: 10px;
+    padding-right: 80px;
+}
+
+button {
+    color: white;
+    background-color: #596D48;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.19);
+}
+
+.loginInfo > p {
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-weight: bolder;
+}
+
+.buttonSection {
+    padding-top: 10px;
+    padding-left: 20px;
+}
